@@ -1,0 +1,210 @@
+/* GENERAL */
+*{
+  font-family: 'Lato' !important;
+}
+
+/* HEADER */
+.header{
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  margin-top: 40px;
+}
+
+.header .container{
+  float: left;
+  margin: 0px 296px;
+  width: calc(100% - 592px);
+}
+
+.header .horbito-logo{
+  float: left;
+  background-image: url('../img/horbitoLogo.png');
+  width: 172px;
+  height: 40px;
+}
+
+.header .menu{
+  float: right;
+  margin-top: 20px;
+}
+
+.header .menu .option{
+  float: right;
+  padding: 0 21px;
+}
+
+.header .menu .option:first-child {
+  padding: 0 0 0 21px;
+}
+
+.header .menu .option .option-text{
+  float: right;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header .menu .option.red .option-text{
+  color: #ff0943;
+}
+
+/* COVER */
+.cover{
+  position: absolute;
+  width: 100%;
+  height: 974px;
+}
+
+.cover .background-cover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/cover.png');
+  background-size: cover;
+  z-index: 1;
+}
+
+.cover .container{
+  position: absolute;
+  margin: 0px 296px;
+  width: calc(100% - 592px);
+  z-index: 2;
+}
+
+.cover .container .slogan{
+  font-size: 220px;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 220px;
+}
+
+.cover .container .slogan.second-sentence{
+  color: #ff0943;
+  z-index: 3;
+  margin-top: 0px;
+}
+
+.cover .container .main-claim{
+  width: 315px;
+  height: 70px;
+  background-color: #ff0943;
+  border-radius: 3px;
+  display: block;
+  margin: 171px auto 0px auto;
+}
+
+.cover .container .main-claim-text{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.cover .container .main-claim-info{
+  float: left;
+  margin-top: 14px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+.footer{
+  position: absolute;
+  width: 100%;
+  height: calc(312px - 47px);
+  background-color: #fff;
+  top: 974px;
+  padding-top: 47px;
+}
+
+.footer.dark{
+  background-color: #252525;
+}
+
+.footer .container{
+  float: left;
+  margin: 0 478px;
+  width: calc(100% - 956px);
+  height: 100%;
+}
+
+.footer .container .first-column{
+  float: left;
+  width: 262px;
+  height: 100%;
+}
+
+.footer .container .first-column .horbito-logo-small{
+  float: left;
+  width: 90px;
+  height: 20px;
+  background-image: url('../img/horbitoLogoSmall.png');
+  margin-right: calc(100% - 90px);
+}
+
+.footer .container .first-column .copyright-logo{
+  float: left;
+  width: 100%;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.footer .container .second-column{
+  float: left;
+  width: 180px;
+  height: 100%;
+}
+
+.footer .container .third-column{
+  float: left;
+  width: 180px;
+  height: 100%;
+}
+
+.footer .container .fourth-column{
+  float: left;
+  width: 227px;
+  height: 100%;
+}
+
+.footer .container .fivth-column{
+  float: left;
+  height: 100%;
+  width: 100px;
+}
+
+.footer .container .title{
+  float: left;
+  font-size: 17px;
+  color: #ff0943;
+  font-weight: bold;
+  margin-bottom: 34px;
+  width: 100%;
+}
+
+.footer .container .option{
+  float: left;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.footer .container .social-link{
+  float: left;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: right;
+}
